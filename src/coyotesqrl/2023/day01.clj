@@ -1,10 +1,10 @@
 ;; ## Hanukkah of Data 2023
 ;; ### Day 1 (https://hanukkah.bluebird.sh/5784/1/)
 (ns coyotesqrl.2023.day01
- (:require [clojure.data.json :as json]
-           [clojure.string :as str]
-           [coyotesqrl.utils :as utils]
-           [nextjournal.clerk :as clerk]))
+  (:require [clojure.data.json :as json]
+            [clojure.string :as str]
+            [coyotesqrl.utils :as utils]
+            [nextjournal.clerk :as clerk]))
 
 ^{::clerk/visibility {:result :hide}}
 (defn upper-last-name [name]
